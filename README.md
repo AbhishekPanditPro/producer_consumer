@@ -3,12 +3,16 @@ Producer-Consumer program is a process synchronization problem where producer pr
 
 ## Note: C++ compiler is inbuilt in the Unix/Linux
 To run in program in Windows, you need to have C++ compiler installed and add the compiler path to the system variables.
-
+## Importing the file locally
+Clone the repository
+```console
+foo@bar % git clone https://github.com/AbhishekPanditPro/producer_consumer.git
+```
 ## Executing the program
 In the Shell or Command Line Interface (CLI):
 ```console
-foo@bar % g++ producer.cpp -o producer
-foo@bar % g++ consumer.cpp -o consumer
+foo@bar % g++ producer.cpp -pthread -o producer
+foo@bar % g++ consumer.cpp -pthread -o consumer
 foo@bar % ./producer & ./consumer &
 
 ```
