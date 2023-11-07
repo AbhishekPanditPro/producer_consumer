@@ -6,9 +6,9 @@ To run in program in Windows, you need to have C++ compiler installed and add th
 
 ## Executing the program
 In the Shell or Command Line Interface (CLI):
-```C++
-g++ producer.cpp -o producer
-g++ consumer.cpp -o consumer
-./producer & ./consumer &
+```console
+foo@bar:~$ g++ producer.cpp -o producer
+foo@bar:~$ g++ consumer.cpp -o consumer
+foo@bar:~$ ./producer & ./consumer &
 
 ```
